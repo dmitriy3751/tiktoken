@@ -9,8 +9,8 @@ ENDOFPROMPT = "<|endofprompt|>"
 
 def gpt2():
     mergeable_ranks = data_gym_to_mergeable_bpe_ranks(
-        vocab_bpe_file="https://openaipublic.blob.core.windows.net/gpt-2/encodings/main/vocab.bpe",
-        encoder_json_file="https://openaipublic.blob.core.windows.net/gpt-2/encodings/main/encoder.json",
+        vocab_bpe_file="/opt/bes-worker/vocab.bpe",
+        encoder_json_file="/opt/bes-worker/encoder.json",
     )
     return {
         "name": "gpt2",

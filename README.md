@@ -1,5 +1,8 @@
 # ⏳ tiktoken
 
+Fork of tiktoken for offline Whisper work. 
+In tiktoken_ext -> openai_public.py -> gpt2() paths of vocab_bpe_file and encoder_json_file changed.
+
 tiktoken is a fast [BPE](https://en.wikipedia.org/wiki/Byte_pair_encoding) tokeniser for use with
 OpenAI's models.
 
